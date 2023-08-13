@@ -1,0 +1,1971 @@
+/* laptops with display 11inches to 13 inches */
+@media screen and (min-width:1024.5px) and (max-width:1366.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: right;
+        margin-top: 15rem;
+        margin-right: 10%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        margin-left: 5rem;
+    }
+
+    .image img {
+        width: 450px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: -35rem;
+        margin-left: 10%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h1:hover {
+        font-style: italic;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 30%;
+    }
+
+    .github {
+        margin-left: 10%;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image img {
+        width: 400px;
+        border-radius: 50%;
+        margin-left: 7.5%;
+    }
+
+    .about_detail {
+        width: 40%;
+        color: white;
+        float: right;
+        margin-right: 7.5%;
+        margin-bottom: 5%;
+        margin-top: -40rem;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 150px;
+        background-color: rgb(61, 61, 61);
+        padding: 15%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-top: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .ending p {
+        margin-top: 2%;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact_nav {
+        list-style: none;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+    }
+
+    .contact_nav img {
+        width: 2.5rem;
+        background-color: aliceblue;
+        border-radius: 30%;
+        padding: 5px;
+    }
+
+    .contact_nav img:hover {
+        margin-top: -15px;
+        opacity: 0.5;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 2rem;
+    }
+}
+
+/* standard laptop with 14 to 17 inches screen */
+
+@media screen and (min-width:1366.5px) and (max-width:1920.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: right;
+        margin-top: 10rem;
+        margin-right: 15%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .image img {
+        width: 450px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: -35rem;
+        margin-left: 15%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h1:hover {
+        font-style: oblique;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 30%;
+    }
+
+    .github {
+        margin-left: 15%;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image img {
+        width: 400px;
+        border-radius: 50%;
+        margin-left: 12.5%;
+    }
+
+    .about_detail {
+        width: 40%;
+        color: white;
+        float: right;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+        margin-top: -40rem;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 150px;
+        background-color: rgb(61, 61, 61);
+        padding: 15%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-top: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .ending p {
+        margin-top: 2%;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact_nav {
+        list-style: none;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+    }
+
+    .contact_nav img {
+        width: 2.5rem;
+        background-color:aliceblue;
+        border-radius: 30%;
+        padding: 5px;
+    }
+
+    .contact_nav img:hover {
+        margin-top: -15px;
+        opacity: 0.75;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 2rem;
+    }
+
+}
+
+/* tablets with 7 to 8 inches display */
+
+@media screen and (min-width:600.5px) and (max-width:768.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .image img {
+        width: 350px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: 2.5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .my_name h1:hover {
+        font-style: italic;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .github {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my_image img {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .about_detail {
+        color: white;
+        margin-bottom: 5%;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 3%;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 100px;
+        background-color: rgb(61, 61, 61);
+        padding: 10%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-left: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    .ending p {
+        margin-top: 2%;
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact_nav {
+        margin-top: 5%;
+        list-style: none;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+    }
+
+    .contact_nav img {
+        width: 2rem;
+        background-color:aliceblue;
+        border-radius: 30%;
+        padding: 5px;
+    }
+
+    .contact_nav img:hover {
+        margin-left: -10px;
+        opacity: 0.5;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 2rem;
+    }
+}
+
+/* for large tablets */
+@media screen and (min-width:768.5px) and (max-width:1024.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: right;
+        margin-top: 15rem;
+        margin-right: 5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        margin-left: 5rem;
+    }
+
+    .image img {
+        width: 375px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: -40rem;
+        margin-left: 5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h1:hover {
+        font-style: italic;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 30%;
+    }
+
+    .github {
+        margin-left: 5%;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image img {
+        width: 320px;
+        border-radius: 50%;
+        margin-left: 5%;
+    }
+
+    .about_detail {
+        width: 40%;
+        color: white;
+        float: right;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: -40rem;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 150px;
+        background-color: rgb(61, 61, 61);
+        padding: 15%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-left: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .ending p {
+        margin-top: 2%;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .contact_nav {
+        list-style: none;
+        display: flex;
+        margin: 5% 0;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+    }
+
+    .contact_nav img {
+        width: 2.5rem;
+        background-color: aliceblue;
+        padding: 5px;
+        border-radius: 30%;
+    }
+
+    .contact_nav img:hover {
+        margin-top: -15px;
+        opacity: 0.5;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 2rem;
+    }
+}
+
+
+/* for mobile phones */
+@media screen and (min-width:1.5px) and (max-width:600.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 5px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .image img {
+        width: 250px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: 2.5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .my_name h1:hover {
+        font-style: italic;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .github {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my_image img {
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .about_detail {
+        color: white;
+        margin-bottom: 5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 3%;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 100px;
+        background-color: rgb(61, 61, 61);
+        padding: 10%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-left: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .ending p {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 10%;
+        margin-top: 2%;
+    }
+
+    .contact_nav {
+        display: flex;
+        list-style: none;
+        margin: 5% 5%;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+        
+    }
+
+    .contact_nav img {
+        width: 2.5rem;
+        background-color: aliceblue;
+        padding: 5px;
+        border-radius: 30%;
+    }
+
+    .contact_nav img:hover {
+        margin-top: -10px;
+        opacity: 0.5;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 3rem;
+    }
+}
+
+/* for  large displays*/
+
+
+@media screen and (min-width:1920.5px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    #home {
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navbar {
+        padding: 2rem;
+        list-style: none;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin-right: 5rem;
+    }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.75rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        position: relative;
+        animation-name: navbar_animation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes navbar_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bolder;
+    }
+
+    .navbar ul li a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: right;
+        margin-top: 15rem;
+        margin-right: 22.5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .image img {
+        width: 500px;
+    }
+
+    @keyframes detail_animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .my_name {
+        margin-top: -35rem;
+        margin-left: 22.5%;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .my_name h1 {
+        color: blueviolet;
+        font-size: 8rem;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h1:hover {
+        font-style: italic;
+    }
+
+    .my_name h2 {
+        font-size: 6rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 40%;
+    }
+
+    .my_name h3 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 30%;
+    }
+
+    .github {
+        margin-left: 22.5%;
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+        animation-name: detail_animation;
+        animation-delay: 3s;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+    }
+
+    .github a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .github a:hover {
+        font-style: italic;
+    }
+
+    .seperation {
+        border: 0;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    #about {
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .my_image img {
+        width: 400px;
+        border-radius: 50%;
+        margin-left: 22.5%;
+    }
+
+    .about_detail {
+        width: 30%;
+        color: white;
+        float: right;
+        margin-right: 22.5%;
+        margin-bottom: 5%;
+        margin-top: -40rem;
+    }
+
+    .about_detail h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .about_detail p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .education {
+        margin-top: 10%;
+        color: white;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .education h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .education_items h2 {
+        margin-top: 3rem;
+        font-family: monospace;
+        font-size: 3rem;
+        color: rgb(63, 63, 169);
+        margin-left: 22.5%;
+    }
+
+    .education_items p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        margin-left: 22.5%;
+    }
+
+    #skills {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #skills h1 {
+        color: white;
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+
+    .languages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+
+    .card p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card img {
+        width: 150px;
+        background-color: rgb(61, 61, 61);
+        padding: 15%;
+        border-radius: 10px;
+    }
+
+    .card img:hover {
+        background-color: #bc003c;
+        margin-top: -10px;
+        transition: 0.5s;
+    }
+
+    #contact {
+        background-color: rgb(11 12 90);
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 1.5%;
+    }
+
+    .ending {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ending h1 {
+        font-size: 4.5rem;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .ending p {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 10%;
+        margin-top: 2%;
+    }
+
+    .contact_nav {
+        display: flex;
+        list-style: none;
+        margin: 5% 10%;
+    }
+
+    .contact_nav li {
+        margin: 0 auto;
+        
+    }
+
+    .contact_nav img {
+        width: 3.5rem;
+        background-color: aliceblue;
+        padding: 10px;
+        border-radius: 30%;
+    }
+
+    .contact_nav img:hover {
+        margin-top: -10px;
+        opacity: 0.5;
+        transition: 0.4s;
+    }
+
+    .copyright {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .copyright p {
+        font-size: 3rem;
+    }
+}
